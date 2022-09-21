@@ -35,9 +35,9 @@ function HeaderText() {
       itemType="https://schema.org/Person"
       className={classes.root}
     >
-      <meta itemProp="familyName" content="Tomar" />
+      <meta itemProp="familyName" content="THORIYA" />
       <meta itemProp="gender" content="https://schema.org/Male" />
-      <meta itemProp="name" content="Bhavya Tomar" />
+      <meta itemProp="name" content="SAVJIT THORIYA" />
       <Typography
         className={classes.title}
         variant="h2"
@@ -45,7 +45,7 @@ function HeaderText() {
         gutterBottom
       >
         <span className={classes.hi}>Hi, </span>I'm{" "}
-        <span itemProp="givenName">Bhavya</span>
+        <span itemProp="givenName">SAVJIT</span>
       </Typography>
       <Typography
         variant="h4"
@@ -56,12 +56,12 @@ function HeaderText() {
         A fullstack developer
       </Typography>
       <Typography itemProp="knowsAbout" className={classes.paragraph}>
-        {/* I specialize in developing and deploying responsive websites and web
-        applications */}
+        I specialize in developing and deploying responsive websites and web
+        applications
         I enjoy solving complex problems.{" "}
-        {/* I provide sustainable and scalable solutions.{" "} */}
-        {/* Nothing brings me more excitement and motivation than
-        building something out of nothing. */}
+        I provide sustainable and scalable solutions.{" "}
+        Nothing brings me more excitement and motivation than
+        building something out of nothing.
         Frequently praised as detail-oriented by my peers, I can be relied upon
         to help your company achieve its goals by providing sustainable and
         scalable solutions.

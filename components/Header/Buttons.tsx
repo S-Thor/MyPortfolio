@@ -3,6 +3,7 @@ import GitHubIcon from "@material-ui/icons/GitHub";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import TwitterIcon from "@material-ui/icons/Twitter";
 import ForumIcon from "@material-ui/icons/Forum";
+import DescriptionIcon from '@material-ui/icons/Description';
 import CodeIcon from "@material-ui/icons/Code";
 import { Box, IconButton, Link, Button } from "@material-ui/core";
 import { makeStyles, createStyles, Theme } from "@material-ui/core/styles";
@@ -104,6 +105,21 @@ function Buttons() {
             See my work
           </Button>
         </NextLink>
+        <Button
+          variant="contained"
+          color="secondary"
+          disableElevation
+          className={classes.bigButton}
+          startIcon={<DescriptionIcon />}
+          onClick={() => {
+            scroller.scrollTo("contact", {
+              smooth: "easeInOutQuad",
+            });
+          }}
+          href="templatePortfolio\public\Savjit_Thoriya-Resume.pdf"
+        >
+          Download Resume
+        </Button>
       </Box>
     </>
   );

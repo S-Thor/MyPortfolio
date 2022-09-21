@@ -23,7 +23,7 @@ const IndexPage = () => {
   return (
     <>
       <Head>
-        <title>Bhavya Tomar</title>
+        <title>SAVJIT THORIYA</title>
       </Head>
       <motion.div
         key="index"

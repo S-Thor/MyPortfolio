@@ -60,7 +60,7 @@ Built by <a href="https://github.com/BhavyaCodes">@BhavyaCodes</a> for his own p
 
 I value keeping my site open source, but as you all know, _**plagiarism is bad**_. It's always disheartening whenever I find that someone has copied my site without giving me credit. I spent a non-trivial amount of effort building and designing this iteration of my website, and I am proud of it! All I ask of you all is to not claim this effort as your own.
 
-<!-- # TypeScript Next.js example
+# TypeScript Next.js example
 
 This is a really simple project that shows the usage of Next.js with TypeScript.
 
@@ -100,4 +100,4 @@ When we run `next dev` the next time, Next.js will start looking for any `.ts` o
 
 Next.js has built-in TypeScript declarations, so we'll get autocompletion for Next.js' modules straight away.
 
-A `type-check` script is also added to `package.json`, which runs TypeScript's `tsc` CLI in `noEmit` mode to run type-checking separately. You can then include this, for example, in your `test` scripts. -->
+A `type-check` script is also added to `package.json`, which runs TypeScript's `tsc` CLI in `noEmit` mode to run type-checking separately. You can then include this, for example, in your `test` scripts.
